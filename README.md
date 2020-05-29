@@ -5,14 +5,14 @@ Linux base User Management Automation Script
 
 sudo useradd -m vicusr1 
 sudo useradd -m nswusr1 
-Sudo useradd –m qldusr1 
+sudo useradd –m qldusr1 
 
-Sudo useradd -m cio 
-Sudo useradd –m crm 
+sudo useradd -m cio 
+sudo useradd –m crm 
 
-Sudo useradd –m vicmgr 
-Sudo useradd –m nswmgr 
-Sudo useradd –m qldmgr 
+sudo useradd –m vicmgr 
+sudo useradd –m nswmgr 
+sudo useradd –m qldmgr 
 
  
 
@@ -22,12 +22,12 @@ sudo passwd vicusr1
 sudo passwd nswusr1 
 sudo passwd qldusr1 
 
-Sudo passwd cio 
-Sudo passwd crm 
+sudo passwd cio 
+sudo passwd crm 
 
-Sudo passwd vicmgr 
-Sudo passwd qldmgr 
-Sudo passwd qldmgr 
+sudo passwd vicmgr 
+sudo passwd qldmgr 
+sudo passwd qldmgr 
 
  
 
@@ -35,9 +35,9 @@ Sudo passwd qldmgr
 
 sudo addgroup cio 
 sudo addgroup crm 
-Sudo addgroup vic 
-Sudo addgroup nsw 
-Sudo addgroup qld 
+sudo addgroup vic 
+sudo addgroup nsw 
+sudo addgroup qld 
 
  
 # Add Users in the Groups: 
