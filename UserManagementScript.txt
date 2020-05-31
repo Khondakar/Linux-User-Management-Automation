@@ -38,7 +38,7 @@ Csudo usermod -a -G crm crm
 sudo usermod -a -G vicmgr sabah
 sudo usermod -a -G vicmgr sam
 ----------------------------------------- 
-sudo usermod -a -G editors olivia 
+# sudo usermod -a -G editors olivia 
 -----------------------------------------
 
 SET PERMISSION:
