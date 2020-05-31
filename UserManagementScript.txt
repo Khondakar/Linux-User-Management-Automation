@@ -1,5 +1,4 @@
-# Create Users: 
-
+CREATE USERS: 
 sudo useradd -m vicusr1 
 sudo useradd -m nswusr1 
 sudo useradd –m qldusr1
@@ -11,9 +10,7 @@ sudo useradd –m qldmgr
 sudo useradd –m sabah
 sudo useradd -m sam 
  
-
-Set Password for Users:  
-
+SET PASSWORD FOR USERS:  
 sudo passwd vicusr1 
 sudo passwd nswusr1 
 sudo passwd qldusr1 
@@ -23,18 +20,14 @@ sudo passwd vicmgr
 sudo passwd qldmgr 
 sudo passwd qldmgr 
 
- 
-Create Groups: 
-
+CREATE GROUPS: 
 sudo addgroup ciogrp 
 sudo addgroup crmgrp 
 sudo addgroup vic 
 sudo addgroup nsw 
 sudo addgroup qld 
 
-
-Add Users in the Groups: 
-
+ADD USERS TO GROUPS: 
 sudo usermod -a -G vic vicusr1 
 sudo usermod -a -G nsw nswusr1 
 sudo usermod -a -G qld qldusr1 
@@ -47,7 +40,8 @@ sudo usermod -a -G vicmgr sam
 ----------------------------------------- 
 sudo usermod -a -G editors olivia 
 -----------------------------------------
-Set Permission:
+
+SET PERMISSION:
 sudo setfacl -m g:crmgrp:rx -R /home/apps/crm/crmapp
 sudo setfacl -m g:crmgrp:rx -R /home/apps/crm/crmapp/main
 
@@ -57,7 +51,7 @@ sudo setfacl -m u:cio:rx -R /home/apps/crm/crmapp
 sudo setfacl -m u:vicusr1:--- /home/apps/crm/crmapp/vic_master.txt
 sudo setfacl -m u:vicusr1:--- /home/apps/crm/crmapp/main/vic_master.txt
 
-Group permission only: 
+GROUP PERMISSION ONLY: 
 sudo setfacl -m g:vic:rx -R /home/apps/crm/crmapp/
 sudo setfacl -m g:nsw:rx -R /home/apps/crm/crmapp/
 
@@ -80,7 +74,7 @@ sudo setfacl -m g:vicmgr:rwx /home/apps/crm/crmapp/vic_master.txt
 sudo setfacl -m u:sam:--- /home/apps/crm/crmapp/vic_master.txt
 sudo setfacl -m u:sam:--- /home/apps/crm/crmapp/vic_records.txt
 
-Group can't access 'Main' folder:
+GROUP CAN'T ACCESS 'MAIN' FOLDER:
 sudo setfacl -m g:vicmgr:--- /home/apps/crm/crmapp/main
 sudo setfacl -m g:nswmgr:--- /home/apps/crm/crmapp/main
 
