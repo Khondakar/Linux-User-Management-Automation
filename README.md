@@ -1,4 +1,4 @@
-# A B O U T
+A B O U T
 
 SOURCE INFO:
 Author: Khondakar Al Sabah
