@@ -1,18 +1,18 @@
-A B O U T
+# A B O U T
 
-# SOURCE INFO:
+SOURCE INFO:
 Author: Khondakar Al Sabah
 Date: 24 May 2020
 BIO: IT Professional
 
-# WHAT IS ABOUT:
+WHAT IS ABOUT:
 This is a collection of scripts to create, delete and check if user, group exists.
 Create TXT files automatically.
 
-#WHY THIS SCRIPT:
+WHY THIS SCRIPT:
 Try to put all Linux command for User Management in script.
 
-# HOW TO USE IT:
+HOW TO USE IT:
 1. Run ./menu.sh and follow the prompts.
 2. Create Users & Set Password. 
 3. Create Groups.
