@@ -13,7 +13,7 @@ WHY THIS SCRIPT:
 Try to put all Linux command for User Management in script.
 
 HOW TO USE IT:
-1. Clone or Download all files (.sh).  
+1. Clone or Download all files (.sh) in one directory. Create your own directory structure.
 2. Run ./menu.sh and follow the prompts.
 3. Create Users & Set Password. 
 4. Create Groups.
