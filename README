@@ -13,10 +13,14 @@ WHY THIS SCRIPT:
 Try to put all Linux command for User Management in script.
 
 HOW TO USE IT:
-1. Run ./menu.sh and follow the prompts.
-2. Create Users & Set Password. 
-3. Create Groups.
-4. Add Users to Groups.
-5. Create .TXT files.
-6. Set Permission to Users.
-7. Delete Users.
+1. Clone or Download all files (.sh).  
+2. Run ./menu.sh and follow the prompts.
+3. Create Users & Set Password. 
+4. Create Groups.
+5. Add Users to Groups.
+6. Create .TXT files.
+7. Set Permission to Users.
+8. Delete Users.
+
+** NOTE: Please change all the Linux commands as per your requirements. All (.sh) script files being created as per 
+         current requirements and still work in progress. Create your own script and use it as a reference.
