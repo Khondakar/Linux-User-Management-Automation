@@ -27,7 +27,7 @@ do
 	echo -e "\e[34mPlease select number and press <ENTER> key :" #\e[34m - Blue txt
  	read usrinput # Create variable to retains the user input/choice from the menu
   	echo "----------------------------------------------"
- 	case "$answer" in
+ 	case "$usrinput" in
    		1) sudo chmod +x ./adduser.sh #Run this as super user
 		   ./adduser.sh ;;	# Run adduser.sh
    		2) sudo chmod +x ./creategrp.sh
