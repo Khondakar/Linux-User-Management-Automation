@@ -3,13 +3,13 @@
 #Author:Khondakar
 
 # Delete users
-sudo userdel auto1 
-sudo userdel auto2
-sudo userdel auto3
+sudo userdel Usr1 
+sudo userdel Usr2
+sudo userdel Usr3
 
 # Delete user's directory from /home
-sudo rm -r /home/auto1
-sudo rm -r /home/auto2
-sudo rm -r /home/auto3
+sudo rm -r /home/Usr1
+sudo rm -r /home/Usr2
+sudo rm -r /home/Usr3
 
 echo "-----* Users Succeessfully Deleted *---------."
