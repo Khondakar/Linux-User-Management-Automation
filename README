@@ -1,5 +1,8 @@
-A B O U T
+ABOUT: ** --------- LINUX USER MANAGEMENT AUTOMATION ---------------- **
 
+NOTE: Please change all the Linux commands as per your requirements. All (.sh) script files being created as per 
+      current requirements and still work in progress. Create your own script and use it as a reference.
+         
 SOURCE INFO:
 Author: Khondakar Al Sabah
 Date: 24 May 2020
@@ -25,6 +28,3 @@ HOW TO USE IT:
 6. Create folders and .TXT files.
 7. Set Permission to Users.
 8. Delete Users.
-
-** NOTE: Please change all the Linux commands as per your requirements. All (.sh) script files being created as per 
-         current requirements and still work in progress. Create your own script and use it as a reference.
