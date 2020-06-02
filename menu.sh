@@ -25,13 +25,13 @@ do
 	echo "7) Exit or Quit:"
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo -e "\e[34mPlease select number and press <ENTER> key :" #\e[34m - Blue txt
- 	read answer  # Create variable to retains the answer
+ 	read usrinput # Create variable to retains the user input/choice from the menu
   	echo "----------------------------------------------"
  	case "$answer" in
    		1) sudo chmod +x ./adduser.sh #Run this as super user
 		   ./adduser.sh ;;	# Run adduser.sh
    		2) sudo chmod +x ./creategrp.sh
-		   ./creategrp.sh ;;	# Run creatgrp.sh
+		   ./creategrp.sh ;;	# Run creategrp.sh
 		3) sudo chmod +x ./addusrtogrp.sh
 		   ./addusrtogrp.sh ;;	# Run addusrtogrp.sh
 		4) sudo chmod +x ./createtxtfile.sh
