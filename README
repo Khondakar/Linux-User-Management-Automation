@@ -6,19 +6,23 @@ Date: 24 May 2020
 BIO: IT Professional
 
 WHAT THIS ABOUT:
-This is a collection of scripts to create, delete and check if user, group exists.
-Create TXT files automatically.
+- This is a collection of scripts to create, delete and check if user and group exists.
+- Set password for the users.
+- Assign users to the groups.
+- Create folders and .TXT files automatically.
+- Assign security permission to the folders and files for groups and users.
+- You can delete the existing users as well.
 
 WHY THIS SCRIPT:
-Try to put all Linux command for User Management in script.
+Try to put all Linux commands for automated User Management in Linux.
 
 HOW TO USE IT:
-1. Clone or Download all files (.sh) in one directory. Create your own directory structure.
+1. Clone or Download all (.sh) files in one directory. Create your own directory structure.
 2. Run ./menu.sh and follow the prompts.
 3. Create Users & Set Password. 
 4. Create Groups.
 5. Add Users to Groups.
-6. Create .TXT files.
+6. Create folders and .TXT files.
 7. Set Permission to Users.
 8. Delete Users.
 
