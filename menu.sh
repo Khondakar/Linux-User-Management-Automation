@@ -6,9 +6,8 @@
 #About /bash: 'bash' is the most common shell used as a default shell for users of Linux systems. 
 #	      'bash' is an abbreviation of Bourne-Again Shell (Developed by Stephen Bourne at Bell Labs. in 1979).
 # -------------------------------------------------------------------------------
-#check if user is root
-#if [ $(id -u) -eq 0 ]; then
-
+# To trap Ctrl-C in a shell script, we will need to use the trap shell builtin command. 
+# When a user sends a Ctrl-C interrupt signal, the signal SIGINT (Signal number 2) is sent.
 trap '' 2  # No control + c allowed
 
 while true
@@ -49,6 +48,3 @@ do
   		   # of the selection before the loop clear the screen
 done
 
-#else
-#	echo "ELSE if condition.. "
-#fi
