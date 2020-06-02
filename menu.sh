@@ -1,8 +1,10 @@
 #!/bin/bash
+#--------------------------------------------------------------------------------
 #Author: Khondakar
 #Date: 20/May/2020
 #Note: User Management Automation
-
+#About /bash: 'bash' is the most common shell used as a default shell for users of Linux systems. Its name, bash is an abbreviation of Bourne-Again Shell (Developed by Stephen Bourne at Bell Labs. in 1979).
+# -------------------------------------------------------------------------------
 #check if user is root
 #if [ $(id -u) -eq 0 ]; then
 
