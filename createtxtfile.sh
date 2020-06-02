@@ -1,6 +1,6 @@
 #!/bin/bash
-#Note: Create folders and .TXT files
-#Author:Khondakar
+# Note: Create folders and .TXT files
+# Author:Khondakar
 
 # Make folders
 sudo mkdir /home/khondakar/workSpace/myScript/apps
