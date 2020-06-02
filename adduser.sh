@@ -1,6 +1,6 @@
 #!/bin/bash
-#Note: Add users & set password.
-#Author: Khondakar
+# Note: Add users & set password.
+# Author: Khondakar
 
 # Add users:
 sudo useradd -m auto1
