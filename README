@@ -18,7 +18,7 @@ Try to put all Linux commands for automated User Management in Linux.
 
 HOW TO USE IT:
 1. Clone or Download all (.sh) files in one directory. Create your own directory structure.
-2. Run ./menu.sh and follow the prompts.
+2. Run (./menu.sh) and follow the prompts.
 3. Create Users & Set Password. 
 4. Create Groups.
 5. Add Users to Groups.
