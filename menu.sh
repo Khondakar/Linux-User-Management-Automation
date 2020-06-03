@@ -38,12 +38,15 @@ do
 		   ./addusrtogrp.sh ;;	# Run addusrtogrp.sh
 		4) sudo chmod +x ./createtxtfile.sh
 		   ./createtxtfile.sh ;; # Run createtxtfile.sh
-		5) echo "Under construction :)" ;;
+		5) sudo chmod +x ./setpermission.sh
+		   ./setpermission.sh ;; # Run setpermission.sh
 		6) sudo chmod +x ./deleteuser.sh
    		   ./deleteuser.sh ;;	# Run deleteuser.sh
-		7) exit ;;		# Exit from the Main Menu
+		7) sudo chmod +x ./grpdel.sh
+		   ./grpdel.sh	;;	# Run grpdel.sh
+		8) exit ;;		# Exit from the Main Menu
   	esac
-  	echo -e "Press the <ENTER> key to continue.."
+  	echo -e "\e[31mPress the <ENTER> key to continue.."
   	read input # This cause a pause so we can read the output
   		   # of the selection before the loop clear the screen
 done
