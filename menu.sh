@@ -18,16 +18,17 @@ do
   	echo -e "\e[31m***    Linux User Management Main Menu      ***" #\e[31m - Red txt
   	echo -e "\e[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
   	echo -e "\e[33mCHOOSE FROM THE BELOW OPTIONS:" #\e[33m - Yellow txt
-  	echo -e "\e[32m1) Create Users & Set Password:" #\e[32m - Green txt
-  	echo "2) Create Groups:"
-	echo "3) Add Users to Groups:"
-	echo "4) Create .TXT files:"
-	echo "5) Set Permission to Users:"
-	echo "6) Delete Users:"
-	echo "7) Exit or Quit:"
+  	echo -e "\e[32m1) Create Users & Set Password." #\e[32m - Green txt
+  	echo "2) Create Groups."
+	echo "3) Add Users to Groups."
+	echo "4) Create .TXT files."
+	echo "5) Set Permission to Users."
+	echo "6) Delete Users."
+	echo "7) Delete Groups."
+	echo "8) Exit or Quit."
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo -e "\e[34mPlease select number and press <ENTER> key :" #\e[34m - Blue txt
- 	read usrinput # Create variable to retains the user input/choice from the menu
+ 	read usrinput  # Create variable to retains the answer
   	echo "----------------------------------------------"
  	case "$usrinput" in
    		1) sudo chmod +x ./adduser.sh #Run this as super user
